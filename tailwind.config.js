@@ -15,6 +15,16 @@ export default {
       },
     },
     extend: {
+      colors: {
+        border: "hsl(var(--border))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: "hsl(var(--primary))",
+        "primary-foreground": "hsl(var(--primary-foreground))",
+        secondary: "hsl(var(--secondary))",
+        "secondary-foreground": "hsl(var(--secondary-foreground))",
+        // thêm các màu khác nếu bạn đang dùng trong theme
+      },
       animation: {
         firework: "firework 1.5s ease-out",
         burst: "burst 0.7s ease-out",
